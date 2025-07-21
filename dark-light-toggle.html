@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dark-light-toggle</title>
+<link rel="stylesheet" href="./css/dark-light-toggle.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <div class="logo-icon">
+        <i class="fas fa-code"></i>
+      </div>
+      <h1>WebCraft</h1>
+    </div>
+    <div class="nav-controls">
+      <div class="nav-links">
+        <a href="#accueil">ACCUEIL</a>
+        <div class="theme-selector">
+          <select class="theme-toggle" id="themeToggle">
+            <option value="light">Clair</option>
+            <option value="dark">Sombre</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="accueil">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Développeur Full Stack</h2>
+        <p>Création d'expériences web modernes et performantes avec les dernières technologies. Spécialisé dans React, Node.js et les architectures cloud.</p>
+        <div class="cta-buttons">
+          <a href="#projets" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            Voir mes projets
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i>
+            Me contacter
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="projets">
+    <div class="container">
+      <h3>Mes Compétences</h3>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <i class="fas fa-laptop-code feature-icon"></i>
+          <h4>Développement Frontend</h4>
+          <p>Maîtrise de React, Vue.js, TypeScript et des frameworks CSS modernes pour créer des interfaces utilisateur intuitives et réactives.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-server feature-icon"></i>
+          <h4>Développement Backend</h4>
+          <p>Expertise en Node.js, Python, bases de données et APIs RESTful pour construire des architectures robustes et scalables.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-mobile-alt feature-icon"></i>
+          <h4>Design Responsive</h4>
+          <p>Conception d'applications web adaptatives qui fonctionnent parfaitement sur tous les appareils et tailles d'écran.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/dark-light-toggle.js"></script>
+</body>
+</html>
